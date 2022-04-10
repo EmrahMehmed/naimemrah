@@ -12,6 +12,7 @@
 
       .website-name {
         font-weight: bold;
+        margin-left: 20px;
       }
 
       .top-links {
@@ -27,6 +28,55 @@
         margin: 10px;
         text-decoration: none;
       }
+      .ortasinif {
+        display: flex;
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      .resim {
+        width: 530px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .itemler {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .date {
+        color: gray;
+        font-style: italic;
+        font-size: 10pt;
+      }
+      .title {
+        font-weight: bold;
+        font-size: 20pt;
+      }
+      .border {
+        background-color: brown;
+      }
+      .logo {
+        width: 30px;
+      }
+      .logo-links {
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+      .signup-bar {
+        padding: 10px;
+        font-size: 20pt;
+        border-radius: 7px;
+        border: solid;
+        text-align: center;
+      }
+      .footer {
+        margin-left: 50px;
+      }
     </style>
   </head>
 
@@ -37,12 +87,14 @@
         <a
           class="link"
           href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background"
-          >Blog</a>
-        
+          >Blog</a
+        >
+
         <a
           class="link"
           href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background"
-          >About</a>
+          >About</a
+        >
 
         <a
           class="link"
@@ -50,6 +102,78 @@
           >Contact
         </a>
       </div>
+    </div>
+
+    <div class="ortasinif">
+      <img class="resim" src="pics/foodpic.jpg" />
+      <div class="itemler">
+        <div>
+          <div class="date">Date</div>
+          <div class="title">Title</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            dolorem excepturi itaque neque tenetur possimus sed quam quasi quis,
+            non repudiandae. Fuga impedit blanditiis nulla magni veritatis.
+            Eaque, pariatur modi.
+          </div>
+        </div>
+        <a href="https://www.w3schools.com/cssref/pr_font_font-style.asp">
+          Read more</a
+        >
+      </div>
+    </div>
+
+    <div class="ortasinif">
+      <img class="resim" src="pics/food2.jpg" />
+      <div class="itemler">
+        <div>
+          <div class="date">Date</div>
+          <div class="title">Title</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            dolorem excepturi itaque neque tenetur possimus sed quam quasi quis,
+            non repudiandae. Fuga impedit blanditiis nulla magni veritatis.
+            Eaque, pariatur modi.
+          </div>
+        </div>
+        <a href="https://www.w3schools.com/cssref/pr_font_font-style.asp">
+          Read more</a
+        >
+      </div>
+    </div>
+
+    <div class="ortasinif">
+      <img class="resim" src="pics/pic3.jpg" />
+      <div class="itemler">
+        <div>
+          <div class="date">Date</div>
+          <div class="title">Title</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            dolorem excepturi itaque neque tenetur possimus sed quam quasi quis,
+            non repudiandae. Fuga impedit blanditiis nulla magni veritatis.
+            Eaque, pariatur modi.
+          </div>
+        </div>
+        <a href="https://www.w3schools.com/cssref/pr_font_font-style.asp">
+          Read more</a
+        >
+      </div>
+    </div>
+    <div class="footer">
+      <div class="logo-links">
+        <a href="https://www.facebook.com/">
+          <img class="logo" src="pics/flogo.png"
+        /></a>
+        <a href="https://www.instagram.com/">
+          <img class="logo" src="pics/instalogo.png"
+        /></a>
+        <a href="https://twitter.com/">
+          <img class="logo" src="pics/twitlogo.png"
+        /></a>
+      </div>
+      <input class="signup-bar" type="email" placeholder="E-Mail" />
+      <p>Made by Emrah</p>
     </div>
   </body>
 </html>
