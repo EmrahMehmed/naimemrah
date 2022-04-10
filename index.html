@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>ILK CODE</title>
+  <head>
+    <title>Food Blog</title>
 
     <style>
-        .buton1 {
-            color: red;
-            background-color: white;
-            border-radius: 10px;
-            margin-top: 50px;
-        }
-        
-        .buton1:hover {
-            color: blue;
-            cursor: pointer;
-        }
+      .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .website-name {
+        font-weight: bold;
+      }
+
+      .top-links {
+        display: flex;
+        color: blue;
+        padding: 10px;
+        margin: 10px;
+        justify-content: flex-end;
+      }
+
+      .link {
+        padding: 10px;
+        margin: 10px;
+        text-decoration: none;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <button class="buton1">TIKLA BENI</button>
-    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-    <div>Naim in katkisi</div>
-    <div>benim bu brancha katkim</div>
-</body>
+  <body>
+    <div class="header-container">
+      <div class="website-name">WEBSITE NAME</div>
+      <div class="top-links">
+        <a
+          class="link"
+          href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background"
+          >Blog</a>
+        
+        <a
+          class="link"
+          href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background"
+          >About</a>
 
+        <a
+          class="link"
+          href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background"
+          >Contact
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
