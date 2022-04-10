@@ -2,28 +2,45 @@
 <html>
 
 <head>
-    <title>ILK CODE</title>
+    <title>Food Blog</title>
 
     <style>
-        .buton1 {
-            color: red;
-            background-color: white;
-            border-radius: 10px;
-            margin-top: 50px;
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         
-        .buton1:hover {
+        .website-name {
+            font-weight: bold;
+        }
+        
+        .top-links {
+            display: flex;
             color: blue;
-            cursor: pointer;
+            padding: 10px;
+            margin: 10px;
+            justify-content: flex-end;
+        }
+        
+        .link {
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <button class="buton1">TIKLA BENI</button>
-    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-    <div>Naim in katkisi</div>
-    <div>benim bu brancha katkim</div>
+    <div class="header-container">
+        <div class="website-name">WEBSITE NAME</div>
+        <div class="top-links">
+            <div class="link">Blog</div>
+            <div class="link">About</div>
+            <a class="link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background">Contact
+        </a>
+        </div>
+    </div>
 </body>
 
 </html>
