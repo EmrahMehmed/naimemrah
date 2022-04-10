@@ -18,3 +18,9 @@
 - ` git push`
 - Dosyalari cekmek icin
 - `git pull`
+
+## OPEN BRANCH
+
+` git checkout main`
+`git pull`
+` git checkout -b {new branch name}`
