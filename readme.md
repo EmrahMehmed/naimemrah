@@ -9,7 +9,7 @@
 
 ## COMMIT
 - Dosyalari COMMIT etmek icin
-- `git commit -m "commit mesaji"`
+- `git commit -m "{commit mesaji}"`
 
 ## PUSH
 
